@@ -24,7 +24,7 @@ public class ContaTerminal {
               System.out.println("Seja bem vindo ao nosso Banco, Vamos abrir sua conta? \n Abaixo, insira seus dados para fazer iniciar o cadastro: ");
               System.out.println("Digite seu NOME: ");
               String nomeCliente = ler.next();
-              System.out.print("Digite seu SOBRENOME");
+              System.out.print("Digite seu SOBRENOME: ");
               String sobrenomeCliente = ler.next();
 
               // Condiçao para repetir operação, caso o usuário  digite a quantidade de digitos errada do CPF, não válida o mesmo.
@@ -80,7 +80,7 @@ public class ContaTerminal {
                         // System.out.println(saldoAtual);
                        
                         
-                        System.out.println("Parabéns " + nomeCliente + " sua conta foi criada. \n Sua agência é: " + agenciaCliente + "\n E o número da sua conta: "  + numercontaCliente + " O seu saldo atual é de: " + saldoAtual  +"\n SEJA BEM VINDO A SUA CONTA JAVABANK! \n Comece a usar sua conta, desposite qualquer valor e faça seu dinheiro render! ");
+                        System.out.println("Parabéns " + nomeCliente + " sua conta foi criada. \n Sua agência é: " + agenciaCliente + "\n E o número da sua conta: "  + numercontaCliente + "\n O seu saldo atual é de: " + saldoAtual  +"\n SEJA BEM VINDO A SUA CONTA JAVABANK! \n Comece a usar sua conta, desposite qualquer valor e faça seu dinheiro render! ");
                         break;
                     } else {
                         System.out.println("Digite um CEP VALIDO");
