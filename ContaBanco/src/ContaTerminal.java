@@ -66,12 +66,14 @@ public class ContaTerminal {
                         
                         for (int i = 0; i < 1 ; i ++);
                         int gererAgencia= gerador.nextInt(10000);
-                        String agenciaCliente = (gererAgencia + " -001"); // Tipo de conta/operação - nesse caso, Conta COrrente, Pessoa Fisica;
+                        String agenciaCliente = (gererAgencia + " - 001"); // Agência + Tipo de conta/operação - nesse caso, Conta COrrente, Pessoa Fisica;
 
                         Random gerador2 = new Random(14301);
                         for (int i = 0; i < 1 ; i ++);
                         int gerarNumeroConta = gerador2.nextInt(10000);
-                        String numercontaCliente = gerarNumeroConta + "1430 -8";
+                        String digitoConta =  gerarNumeroConta + "9";
+                        int numercontaCliente =   Integer.parseInt(digitoConta);
+
                         
                         if (true);
                         Double saldoAtual = 00.00;
